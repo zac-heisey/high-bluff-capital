@@ -1,3 +1,10 @@
-baseURL = "http://example.org/"
+# Site settings
+title = "Private Investment Firm | High Bluff Capital Partners"
+baseURL = "" # Hostname (and path) to the root, e.g. http://bep.is/
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+[params]
+  email = "info@highbluffcap.com.com"
+  description = "High Bluff Capital is based in San Diego, California and is the private investment firm founded by Anand Gowda. The firm’s focus is on making control-oriented equity investments in consumer-facing companies."
+  twitter_username = ""
+  github_username = ""
