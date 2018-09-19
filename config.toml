@@ -2,6 +2,7 @@
 title = "Private Investment Firm | High Bluff Capital Partners"
 baseURL = "" # Hostname (and path) to the root, e.g. http://bep.is/
 languageCode = "en-us"
+theme = "hugo-universal-theme"
 
 [params]
   email = "info@highbluffcap.com.com"
