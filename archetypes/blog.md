@@ -5,5 +5,4 @@ description = ""
 tags = []
 categories = []
 author = ""
-draft = true
 +++
