@@ -1,4 +1,12 @@
-/* your styles go here */
+/* CSS Variables */
+
+:root {
+  --main-color: #454F87;
+  --secondary-color: #C0C2C4;
+}
+
+
+/* From Theme - Leave as-is */
 
 .box-image-text .image {
   min-height: 200px;
@@ -7,4 +15,25 @@
 
 .box-simple {
   min-height: 230px;
+}
+
+/* Heading Styles */
+
+#heading-breadcrumbs {
+  background: var(--main-color);
+}
+
+#heading-breadcrumbs h1 {
+  color: #fff;
+}
+
+/* Homepage Styles */
+
+.home-carousel {
+  background: url(../img/pb-pier-bg.jpg) center center repeat;
+}
+
+.home-carousel .dark-mask {
+  background: var(--main-color);
+  opacity: 0.6;
 }
