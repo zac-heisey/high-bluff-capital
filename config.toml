@@ -18,24 +18,33 @@ paginate = 10
 
 [[menu.main]]
     name = "Home"
-    url  = "/"
+    url = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
+    name = "Team"
+    url = "/team/"
     weight = 2
 
 [[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
+    name = "Investment Criteria"
+    url = "/investment-criteria/"
     weight = 3
 
 [[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
+    name = "Portfolio"
+    url = "/portfolio"
     weight = 4
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
 
 # Top bar social links menu
 
@@ -65,7 +74,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
+    author = "High Bluff Capital"
     defaultKeywords = ["investment firm san diego", "san diego investment firm", "high bluff capital"]
     defaultDescription = "High Bluff Capital is based in San Diego, California and is the private investment firm founded by Anand Gowda. The firm’s focus is on making control-oriented equity investments in consumer-facing companies."
 
