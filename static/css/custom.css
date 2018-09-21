@@ -2,6 +2,7 @@
 
 :root {
   --main-color: #454F87;
+  --main-color-light: #BEC5EC;
   --secondary-color: #C0C2C4;
 }
 
@@ -15,6 +16,17 @@
 
 .box-simple {
   min-height: 230px;
+}
+
+/* Navigation Menu Styles */
+
+.navbar ul.nav > li > a {
+  text-decoration: none;
+}
+
+.navbar ul.nav > li > a:hover {
+  border-top: 5px solid var(--main-color);
+  background: var(--main-color-light);
 }
 
 /* Heading Styles */
