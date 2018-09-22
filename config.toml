@@ -1,4 +1,4 @@
-baseurl = "" # Hostname (and path) to the root, e.g. http://bep.is/
+baseurl = "https://www.highbluffcap.com/" # Hostname (and path) to the root, e.g. http://bep.is/
 title = "San Diego Private Investment Firm | High Bluff Capital Partners"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
