@@ -7,7 +7,7 @@
 }
 
 
-/* From Theme - Leave as-is */
+/* From Univeral Theme - Leave as-is */
 
 .box-image-text .image {
   min-height: 200px;
@@ -48,4 +48,15 @@
 .home-carousel .dark-mask {
   background: var(--main-color);
   opacity: 0.6;
+}
+
+/* Team Page Styles */
+
+.team-img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.team-bio {
+  text-align: left;
 }
