@@ -42,12 +42,16 @@
 /* Homepage Styles */
 
 .home-carousel {
-  background: url(../img/pb-pier-bg.jpg) center center repeat;
+  background: url('/img/homepage-bg.jpg') center center repeat;
 }
 
 .home-carousel .dark-mask {
   background: var(--main-color);
   opacity: 0.6;
+}
+
+.bar.background-image-fixed-2 {
+  background: url('/img/fixed-homepage-bg.jpg') center top no-repeat;
 }
 
 /* Team Page Styles */
