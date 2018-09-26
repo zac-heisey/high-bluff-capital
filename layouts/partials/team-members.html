@@ -11,7 +11,7 @@
     {{ range .Site.Data.team_members }}
     <div class="col-md-4">
       <div class="box-simple">
-        <img class="team-img" title="{{ .name }} | High Bluff Capital Partners" alt="image of {{ .name }} of High Bluff Capital Partners" src="{{ .avatar | absURL }}">
+        <img class="team-img" title="{{ .name }} | High Bluff Capital Partners" alt="image of {{ .name }} of High Bluff Capital Partners" src="{{ .avatar | relURL }}">
         <h3>{{ .name }}</h3>
         <p class="team-bio">{{ .bio | markdownify }}</p>
       </div>
