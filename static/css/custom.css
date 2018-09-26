@@ -1,7 +1,7 @@
 /* CSS Variables */
 
 :root {
-  --main-color: #454F87;
+  --main-color: #243374; /* Was #454F87 */
   --main-color-light: #BEC5EC;
   --secondary-color: #C0C2C4;
 }
@@ -60,8 +60,24 @@
   border-color: var(--main-color);
 }
 
+#homepage-logo-container {
+  margin: 5rem 0 0 0;
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+#homepage-logo-container .row {
+  padding: 3rem 0;
+}
+
+#homepage-logo-container img.img-responsive {
+  display: inline;
+}
+
 .bar.background-image-fixed-2 {
   background: url('/img/fixed-homepage-bg.jpg') center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Team Page Styles */
