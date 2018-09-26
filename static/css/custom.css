@@ -39,6 +39,11 @@
   color: #fff;
 }
 
+.heading h2 {
+  color: var(--main-color);
+  border-bottom: 5px solid var(--secondary-color);
+}
+
 /* Homepage Styles */
 
 .home-carousel {
@@ -48,6 +53,11 @@
 .home-carousel .dark-mask {
   background: var(--main-color);
   opacity: 0.6;
+}
+
+.box-simple .icon {
+  color: var(--main-color);
+  border-color: var(--main-color);
 }
 
 .bar.background-image-fixed-2 {
@@ -63,4 +73,17 @@
 
 .team-bio {
   text-align: left;
+}
+
+/* Button Styles */
+
+.btn-template-main {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.btn-template-main:hover, .btn-template-main:focus,
+.btn-template-main:active, .btn-template-main.active {
+  background: var(--main-color);
+  border-color: var(--main-color);
 }
