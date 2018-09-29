@@ -9,7 +9,8 @@
             <h2>{{ .Site.Params.clients.title }}</h2>
         </div>
         <p class="lead">{{ .Site.Params.clients.subtitle }}</p>
-        <ul class="owl-carousel customers">
+        <!-- Start Owl Carousel (use with 5+ clients in /data/clients) -->
+        <!-- <ul class="owl-carousel customers">
           {{ range .Site.Data.clients }}
           <li class="item" title="{{ .name }}">
             {{ if .url }}
@@ -21,8 +22,15 @@
             {{ end }}
           </li>
           {{ end }}
-        </ul>
-        <!-- /.owl-carousel -->
+        </ul> -->
+        <!-- End Owl Carousel -->
+        {{ range .Site.Data.clients }}
+        <div class="col-md-6">
+          <div class="box-simple">
+            <img src="{{ .image }}" title="{{ .name }}" alt="{{ .name }} logo">
+          </div>
+        </div>
+        {{ end }}
         <a href="/portfolio" class="btn btn-lg btn-template-main">See Our Full Portfolio</a>
       </div>
     </div>
