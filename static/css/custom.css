@@ -39,7 +39,7 @@
   color: #fff;
 }
 
-.heading h2 {
+.heading h2, .heading h3 {
   color: var(--main-color);
   border-bottom: 5px solid var(--secondary-color);
 }
