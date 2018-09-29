@@ -99,7 +99,12 @@
 }
 
 .btn-template-main:hover, .btn-template-main:focus,
-.btn-template-main:active, .btn-template-main.active {
+.btn-template-main:active {
   background: var(--main-color);
   border-color: var(--main-color);
+}
+
+.btn-template-transparent-black:hover, .btn-template-transparent-black:focus,
+.btn-template-transparent-black:active {
+  color: var(--main-color);
 }

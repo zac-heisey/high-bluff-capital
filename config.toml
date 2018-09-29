@@ -152,13 +152,13 @@ paginate = 10
     title = "Testimonials"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
-[params.see_more]
+[params.read_blog]
     enable = true
     icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    title = "Want the Latest Investment News & Info?"
+    subtitle = "Our blog is ground zero for company updates, industry tips & best practices, and recent happenings in the investment world."
+    link_url = "/blog/"
+    link_text = "Visit Our Blog"
 
 [params.clients]
     enable = true
