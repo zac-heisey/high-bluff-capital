@@ -45,8 +45,14 @@ a:hover {
   background: var(--main-color);
 }
 
-#heading-breadcrumbs h1 {
+#heading-breadcrumbs .heading {
+  margin-bottom: 0;
+}
+
+#heading-breadcrumbs .heading h1 {
   color: #fff;
+  border-bottom: 5px solid var(--secondary-color);
+  margin: 20px 0;
 }
 
 .heading h2, .heading h3 {
@@ -98,6 +104,12 @@ a:hover {
 }
 
 .team-bio {
+  text-align: left;
+}
+
+/* Portfolio Page Styles */
+
+.client-description {
   text-align: left;
 }
 
