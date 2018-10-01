@@ -18,6 +18,16 @@
   min-height: 230px;
 }
 
+/* Global Styles */
+
+a {
+  color: var(--main-color-light);
+}
+
+a:hover {
+  color: #fff;
+}
+
 /* Navigation Menu Styles */
 
 .navbar ul.nav > li > a {
