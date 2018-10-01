@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="heading text-center">
+        <h2>Our Portfolio Companies</h2>
+      </div>
+    </div>
+  </div>
+  <!-- Clients -->
+  <div class="row">
+    {{ range .Site.Data.clients }}
+    <div class="col-md-6">
+      <div class="box-simple">
+        <img class="client-img" title="{{ .name }} | High Bluff Capital Partners" alt="{{ .name }} logo | High Bluff Capital Partners" src="{{ .image | relURL }}">
+        <h3>{{ .name }}</h3>
+        <p class="client-description">{{ .description | markdownify }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
