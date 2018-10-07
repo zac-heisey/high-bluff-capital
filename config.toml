@@ -105,8 +105,8 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo = "https://res.cloudinary.com/zheisey/image/upload/c_scale,w_180/v1538932713/high-bluff-capital/high-bluff-logo.png"
+    logo_small = "https://res.cloudinary.com/zheisey/image/upload/c_scale,w_140/v1538932713/high-bluff-capital/high-bluff-logo.png"
     address = """<p><strong>High Bluff Capital Partners</strong>
         <br>12760 High Bluff Drive
         <br>Suite 310
