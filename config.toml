@@ -154,7 +154,7 @@ paginate = 10
 
 [params.read_blog]
     enable = true
-    icon = "fa fa-file-code-o"
+    icon = "fas fa-dollar-sign"
     title = "Want the Latest Investment News & Info?"
     subtitle = "Our blog is ground zero for company updates, industry tips & best practices, and recent happenings in the investment world."
     link_url = "/blog/"
