@@ -9,7 +9,7 @@
                 {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
                     <div class="row">
-                        <div class="col-sm-5 right">
+                        <div class="col-sm-5 right" id="homepage-carousel-content">
                             <h1>{{ .title }}</h1>
                             {{ .description | safeHTML }}
                         </div>

@@ -28,6 +28,10 @@ a:hover {
   color: #fff;
 }
 
+section {
+  margin-bottom: 0;
+}
+
 /* Navigation Menu Styles */
 
 .navbar ul.nav > li > a {
@@ -63,7 +67,7 @@ a:hover {
 /* Homepage Styles */
 
 .home-carousel {
-  background: url('/img/homepage-bg.jpg') center center repeat;
+  background: url('/img/homepage-bg.jpg') center 38% repeat;
 }
 
 .home-carousel .dark-mask {
@@ -94,6 +98,12 @@ a:hover {
   background: url('/img/fixed-homepage-bg.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+@media (min-width: 768px) {
+  #homepage-carousel-content {
+    margin-bottom: 100px;
+  }
 }
 
 /* Team Page Styles */
