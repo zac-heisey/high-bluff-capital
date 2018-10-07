@@ -138,10 +138,10 @@ paginate = 10
     # at '/data/carousel'.
     # For more informtion take a look at the README.
 
-[params.features]
+[params.expertise]
     enable = true
-    # All features are defined in their own files. You can find example items
-    # at '/data/features'.
+    # All specialties are defined in their own files. You can find example items
+    # at '/data/expertise'.
     # For more informtion take a look at the README.
 
 [params.testimonials]
