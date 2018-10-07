@@ -32,6 +32,24 @@ section {
   margin-bottom: 0;
 }
 
+/* Button Styles */
+
+.btn-template-main {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.btn-template-main:hover, .btn-template-main:focus,
+.btn-template-main:active {
+  background: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.btn-template-transparent-black:hover, .btn-template-transparent-black:focus,
+.btn-template-transparent-black:active {
+  color: var(--main-color);
+}
+
 /* Navigation Menu Styles */
 
 .navbar ul.nav > li > a {
@@ -123,20 +141,25 @@ section {
   text-align: left;
 }
 
-/* Button Styles */
+/* Blog / Sidebar Styles */
 
-.btn-template-main {
+#blog-listing-medium .post h2 a:hover,
+#blog-listing-medium .post .author-category a:hover,
+.panel.sidebar-menu ul.tag-cloud li a {
   color: var(--main-color);
-  border-color: var(--main-color);
 }
 
-.btn-template-main:hover, .btn-template-main:focus,
-.btn-template-main:active {
-  background: var(--main-color);
-  border-color: var(--main-color);
+.panel.sidebar-menu ul.tag-cloud li a:hover {
+  color: var(--main-color-light);
+  border-color: var(--main-color-light);
 }
 
-.btn-template-transparent-black:hover, .btn-template-transparent-black:focus,
-.btn-template-transparent-black:active {
-  color: var(--main-color);
+.panel.sidebar-menu .panel-heading h1,.panel.sidebar-menu .panel-heading h2,
+.panel.sidebar-menu .panel-heading h3, .panel.sidebar-menu .panel-heading h4,
+.panel.sidebar-menu .panel-heading h5 {
+  border-bottom: solid 5px var(--main-color);
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: var(--main-color);
 }
