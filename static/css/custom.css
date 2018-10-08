@@ -61,6 +61,11 @@ section {
   background: var(--main-color-light);
 }
 
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: var(--main-color);
+}
+
 /* Heading Styles */
 
 #heading-breadcrumbs {
