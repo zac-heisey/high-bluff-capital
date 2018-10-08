@@ -1,8 +1,8 @@
 +++
 title = "Taco Del Mar Acquired by Investment Firm High Bluff Capital Partners"
 date = "2018-07-10"
-tags = ["taco del mar"]
-categories = ["in the news", "acquisitions"]
+tags = ["taco del mar", "acquisitions"]
+categories = ["in the news"]
 banner = "img/taco-del-mar-logo.png"
 +++
 

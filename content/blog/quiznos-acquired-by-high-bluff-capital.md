@@ -1,8 +1,8 @@
 +++
 title = "Quiznos Acquired by Investment Firm High Bluff Capital Partners"
 date = "2018-06-12"
-tags = ["quiznos"]
-categories = ["in the news", "acquisitions"]
+tags = ["quiznos", "acquisitions"]
+categories = ["in the news"]
 banner = "img/quiznos-logo.png"
 +++
 
