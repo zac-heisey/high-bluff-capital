@@ -6,7 +6,7 @@
         <!-- Same as if .Title == "Contact" -->
         {{ if eq .Title "Contact" }}
           <h1>{{ .Title }} High Bluff Capital</h1>
-        {{ else if isset .Params "date" }}
+        {{ else if (isset .Params "date") | or (eq .Title "Thank You!") }}
           <h1>{{ .Title }}</h1>
         {{ else }}
           <h1>High Bluff Capital {{ .Title }}</h1>
