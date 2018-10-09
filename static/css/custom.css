@@ -168,3 +168,9 @@ section {
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: var(--main-color);
 }
+
+/* Form / Contact Page Styles */
+
+form {
+  margin-bottom: 50px;
+}
