@@ -6,16 +6,14 @@
             <section>
 
                 {{ .Content }}
-
-                {{ if isset .Site.Params "email" }}
-
+                <a href="/thank-you/">THANKS</a>
                 <div class="heading">
                   <h3>{{ i18n "contactForm" }}</h3>
                 </div>
 
                 <div id="contact-message"></div>
 
-                <form class="contact-form" name="Website Contact Form" netlify-honeypot='surname' action='/thank-you/' netlify>
+                <form method="POST" name="Website Contact Form" netlify-honeypot="surname" action="/thank-you/" netlify>
                   <!-- Netlify honeypot field -->
                   <p class='hidden'><label>Don’t fill this out: <input name='surname'></label></p>
                   <!-- Standard form fields -->
@@ -29,7 +27,7 @@
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label for="email">{{ i18n "contactMail" }}</label>
-                        <input type="text" class="form-control" name="email" id="email" required>
+                        <input type="email" class="form-control" name="email" id="email" required>
                       </div>
                     </div>
                     <div class="col-sm-12">
@@ -44,8 +42,6 @@
                   </div>
                   <!-- /.row -->
                 </form>
-
-                {{ end }}
 
             </section>
 
