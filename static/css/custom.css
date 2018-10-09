@@ -174,3 +174,7 @@ section {
 form {
   margin-bottom: 50px;
 }
+
+p.hidden {
+  display: none;
+}
