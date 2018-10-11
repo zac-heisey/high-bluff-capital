@@ -1,6 +1,7 @@
 +++
 title = "Investment Criteria"
-description = "High Bluff Capital specializes in control-oriented equity investments in consumer facing companies. Learn more about our investment criteria."
+seo_title = "Investment Criteria For High Bluff Capital - Private Equity"
+description = "High Bluff Capital has very specific investment criteria for businesses seeking funds from our private equity firm. Click here to learn if your business is an ideal fit for our team."
 +++
 
 ### Company Profile
