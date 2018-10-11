@@ -1,5 +1,5 @@
 +++
 title = ""
-date = {{ .Date }}
+seo-title = ""
 description = ""
 +++
