@@ -3,7 +3,11 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ if isset .Params "seo_title"}}
+  <title>{{ .Params.seo_title }}</title>
+  {{ else }}
   <title>{{ .Title }}</title>
+  {{ end }}
   <meta name="author" content="{{ .Site.Author.name }}" />
 
   {{ if .Keywords }}
