@@ -74,7 +74,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "High Bluff Capital"
+    author = "High Bluff Capital Partners"
     defaultKeywords = ["investment firm san diego", "san diego investment firm", "high bluff capital"]
     defaultDescription = "High Bluff Capital is a private equity firm based in San Diego, CA that focuses on control oriented equity investments in consumer facing companies. Click here to learn more."
 

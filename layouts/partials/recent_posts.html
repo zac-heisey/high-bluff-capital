@@ -41,6 +41,8 @@
                             <p class="author-category">
                             {{ with .Params.author }}
                             {{ i18n "authorBy" }} <a href="#">{{ . }}</a>
+                            {{ else }}
+                            {{ i18n "authorBy" }} <a href="#">{{ .Site.Params.author }}</a>
                             {{ end }}
                             {{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
                             </p>

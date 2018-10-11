@@ -148,6 +148,7 @@ section {
 
 /* Blog / Sidebar Styles */
 
+#blog-post a:hover,
 #blog-listing-medium .post h2 a:hover,
 #blog-listing-medium .post .author-category a:hover,
 .panel.sidebar-menu ul.tag-cloud li a {
