@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ if isset .Params "seo_title"}}
   <title>{{ .Params.seo_title }}</title>
+  {{ else if (eq .Title "Blogs") }}
+  <title>Recent Private Equity News & Private Equity Blog | High Bluff Capital</title>
   {{ else }}
   <title>{{ .Title }}</title>
   {{ end }}
@@ -18,6 +20,8 @@
 
   {{ if .Description }}
   <meta name="description" content="{{ .Description }}">
+  {{ else if (eq .Title "Blogs") }}
+  <meta name="description" content="Browse private equity news and stay up-to-date with what's going on with the current investment portfolio of High Bluff Capital. Click here to read more.">
   {{ else if .Site.Params.DefaultDescription }}
   <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
   {{ end }}
