@@ -66,6 +66,10 @@ section {
   background-color: var(--main-color);
 }
 
+#footer-nav ul a:hover {
+  color: var(--main-color-light);
+}
+
 /* Heading Styles */
 
 #heading-breadcrumbs {
