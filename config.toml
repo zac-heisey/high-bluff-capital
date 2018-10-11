@@ -1,5 +1,5 @@
 baseurl = "" # Hostname (and path) to the root, e.g. https://www.highbluffcap.com/
-title = "San Diego Private Investment Firm | High Bluff Capital Partners"
+title = "Private Equity Firms & Private Equity | High Bluff Capital"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
@@ -76,7 +76,7 @@ paginate = 10
     viewMorePostLink = "/blog/"
     author = "High Bluff Capital"
     defaultKeywords = ["investment firm san diego", "san diego investment firm", "high bluff capital"]
-    defaultDescription = "High Bluff Capital is based in San Diego, California and is the private investment firm founded by Anand Gowda. The firm’s focus is on making control-oriented equity investments in consumer-facing companies."
+    defaultDescription = "High Bluff Capital is a private equity firm based in San Diego, CA that focuses on control oriented equity investments in consumer facing companies. Click here to learn more."
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyCP1mLtPMCM_3_y6hf7uzbSmsutlpNKNFM"
