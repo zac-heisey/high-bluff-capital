@@ -12,13 +12,13 @@
         <!-- Start Owl Carousel (use with 5+ clients in /data/clients) -->
         <!-- <ul class="owl-carousel customers">
           {{ range .Site.Data.clients }}
-          <li class="item" title="{{ .name }}">
+          <li class="item" title="{{ .title }}">
             {{ if .url }}
               <a href="{{ .url }}" target="_blank">
-                <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                <img src="{{ .image }}" alt="{{ .title }}" class="img-responsive" />
               </a>
             {{ else }}
-              <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+              <img src="{{ .image }}" alt="{{ .title }}" class="img-responsive" />
             {{ end }}
           </li>
           {{ end }}
@@ -27,7 +27,7 @@
         {{ range .Site.Data.clients }}
         <div class="col-md-6">
           <div class="box-simple">
-            <img src="{{ .image }}" title="{{ .name }}" alt="{{ .name }} logo">
+            <img src="{{ .image }}" title="{{ .title }}" alt="{{ .title }} logo">
           </div>
         </div>
         {{ end }}

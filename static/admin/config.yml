@@ -41,3 +41,14 @@ collections:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Bio", name: "bio", widget: "text"}
       - {label: "Photo", name: "avatar", widget: "image", required: false}
+  - name: "clients"
+    label: "Client Portfolio"
+    folder: "data/clients"
+    create: true
+    slug: "{{slug}}"
+    extension: yaml
+    format: yaml
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text"}
