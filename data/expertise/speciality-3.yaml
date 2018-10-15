@@ -1,4 +1,4 @@
-weight: 2
-name: "Specialty 2"
-icon: "fas fa-chart-area"
+weight: 3
+title: "Specialty 3"
+icon: "fas fa-chart-line"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
