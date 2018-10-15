@@ -38,7 +38,6 @@ collections:
     extension: yaml
     format: yaml
     fields:
-      - {label: "Position", name: "title", widget: "string", required: false}
+      - {label: "Name", name: "title", widget: "string"}
       - {label: "Bio", name: "bio", widget: "text"}
-      - {label: "Name", name: "name", widget: "string"}
       - {label: "Photo", name: "avatar", widget: "image", required: false}
