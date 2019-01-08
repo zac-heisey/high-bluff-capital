@@ -154,6 +154,14 @@ section {
   text-align: left;
 }
 
+.box-simple h3 a {
+  color: var(--main-color);
+}
+
+.box-simple h3 a:hover {
+  color: var(--main-color-light);
+}
+
 /* Blog / Sidebar Styles */
 
 #blog-post a:hover,

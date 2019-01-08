@@ -5,7 +5,7 @@
     <div class="col-md-6">
       <div class="box-simple">
         <img class="client-img" title="{{ .title }} | High Bluff Capital Partners" alt="{{ .title }} logo | High Bluff Capital Partners" src="{{ .image | relURL }}">
-        <h3>{{ .title }}</h3>
+        <h3 class="client-name"><a href="{{ .client_url }}">{{ .title }}</a></h3>
         <p class="client-description">{{ .description | markdownify }}</p>
       </div>
     </div>

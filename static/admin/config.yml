@@ -51,6 +51,7 @@ collections:
     format: yaml
     fields:
       - {label: "Name", name: "title", widget: "string"}
+      - {label: "Client URL", name: "client_url", widget: "string"}
       - {label: "Image", name: "image", widget: "image", hint: "Ideal Size: 320x220 pixels", required: false}
       - {label: "Description", name: "description", widget: "text"}
   - name: "expertise"
