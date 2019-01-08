@@ -27,8 +27,8 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
-    name = "Investment Criteria"
-    url = "/investment-criteria/"
+    name = "Investment Approach"
+    url = "/investment-approach/"
     weight = 3
 
 [[menu.main]]
