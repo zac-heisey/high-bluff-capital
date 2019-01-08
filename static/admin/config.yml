@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: netlify # Branch to update (optional; defaults to master)
-media_folder: "static/img" # Media files will be stored in the repo under static/images
-public_folder: "/img" # The src attribute for uploaded media will begin with /images
+media_folder: "static/img" # Media files will be stored in the repo under static/img
+public_folder: "/img" # The src attribute for uploaded media will begin with /img
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
@@ -27,8 +27,9 @@ collections:
     format: toml-frontmatter
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "SEO Title", name: "seo_title", widget: "string"}
       - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "ID", name: "id", widget: "hidden"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "team-members"
     label: "Team Members"
@@ -40,7 +41,7 @@ collections:
     fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Bio", name: "bio", widget: "text"}
-      - {label: "Photo", name: "avatar", widget: "image", required: false}
+      - {label: "Photo", name: "avatar", widget: "image", hint: "Ideal Size: 300x300 pixels", required: false}
   - name: "clients"
     label: "Client Portfolio"
     folder: "data/clients"
@@ -50,7 +51,7 @@ collections:
     format: yaml
     fields:
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Image", name: "image", widget: "image", hint: "Ideal Size: 320x220 pixels", required: false}
       - {label: "Description", name: "description", widget: "text"}
   - name: "expertise"
     label: "Expertise"
