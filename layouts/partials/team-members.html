@@ -2,13 +2,34 @@
   <!-- Team Members -->
   <div class="row">
     {{ range .Site.Data.team_members }}
-    <div class="col-md-4">
-      <div class="box-simple">
-        <img class="team-img" title="{{ .name }} | High Bluff Capital Partners" alt="image of {{ .name }} of High Bluff Capital Partners" src="{{ .avatar | relURL }}">
-        <h3>{{ .title }}</h3>
-        <p class="team-bio">{{ .bio | markdownify }}</p>
+      {{ if ne .team "restaurant" }}
+      <div class="col-md-4">
+        <div class="box-simple">
+          <img class="team-img" title="{{ .name }} | High Bluff Capital Partners" alt="image of {{ .name }} of High Bluff Capital Partners" src="{{ .avatar | relURL }}">
+          <h3>{{ .title }}</h3>
+          {{ if ne .Params.linkedin "" }}
+          <a href="{{ .linkedin }}">LinkedIn</a>
+          {{ end }}
+          <p class="team-bio">{{ .bio | markdownify }}</p>
+        </div>
       </div>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="row">
+    <div class="heading" id="restaurant-execs">
+      <h2>Restaurant Platform Executives</h2>
     </div>
+    {{ range .Site.Data.team_members }}
+      {{ if eq .team "restaurant" }}
+      <div class="col-md-4">
+        <div class="box-simple">
+          <img class="team-img" title="{{ .name }} | High Bluff Capital Partners" alt="image of {{ .name }} of High Bluff Capital Partners" src="{{ .avatar | relURL }}">
+          <h3>{{ .title }}</h3>
+          <p class="team-bio">{{ .bio | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
     {{ end }}
   </div>
 </div>
