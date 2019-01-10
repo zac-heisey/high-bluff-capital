@@ -7,9 +7,6 @@
         <div class="box-simple">
           <img class="team-img" title="{{ .name }} | High Bluff Capital Partners" alt="image of {{ .name }} of High Bluff Capital Partners" src="{{ .avatar | relURL }}">
           <h3>{{ .title }}</h3>
-          {{ if ne .Params.linkedin "" }}
-          <a href="{{ .linkedin }}">LinkedIn</a>
-          {{ end }}
           <p class="team-bio">{{ .bio | markdownify }}</p>
         </div>
       </div>
