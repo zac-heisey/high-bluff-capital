@@ -6,7 +6,9 @@
       <div class="col-md-4">
         <div class="box-simple">
           <img class="team-img" title="{{ .name }} | High Bluff Capital Partners" alt="image of {{ .name }} of High Bluff Capital Partners" src="{{ .avatar | relURL }}">
-          <h3>{{ .title }}</h3>
+          <h3>{{ .title }}<br>
+          <a href="{{ .linkedin }}">LinkedIn</a> | <a href="mailto:{{ .email }}">Email</a>
+          </h3>
           <p class="team-bio">{{ .bio | markdownify }}</p>
         </div>
       </div>
@@ -22,7 +24,9 @@
       <div class="col-md-4">
         <div class="box-simple">
           <img class="team-img" title="{{ .name }} | High Bluff Capital Partners" alt="image of {{ .name }} of High Bluff Capital Partners" src="{{ .avatar | relURL }}">
-          <h3>{{ .title }}</h3>
+          <h3>{{ .title }}<br>
+          <a href="{{ .linkedin }}">LinkedIn</a> | <a href="mailto:{{ .email }}">Email</a>
+          </h3>
           <p class="team-bio">{{ .bio | markdownify }}</p>
         </div>
       </div>

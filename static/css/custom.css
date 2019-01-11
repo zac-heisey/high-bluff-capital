@@ -155,7 +155,7 @@ section {
 /* Created to push team members 4-6 to the next line */
 @media (min-width: 992px) {
   .box-simple {
-    min-height: 650px;
+    min-height: 670px;
   }
 }
 
