@@ -1,12 +1,11 @@
 <div class="container" id="contact">
 
     <div class="row">
-        <div class="col-md-8">
-
+        <div class="col-md-12">
+          {{ .Content }}
+        </div>
+        <div class="col-md-7">
             <section>
-
-                {{ .Content }}
-
                 <div class="heading">
                   <h3>{{ i18n "contactForm" }}</h3>
                 </div>
@@ -47,15 +46,17 @@
 
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-5">
             {{ if isset .Site.Params "address" }}
             <section>
-              <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
+              <div class="heading">
+                <h3 class="text-uppercase">Contact Information</h3>
+              </div>
                 {{ .Site.Params.address | safeHTML }}
             </section>
             {{ end }}
-            <!-- Google Maps Embed -->
-            {{ partial "map.html" . }}
+            <!-- Google Maps Embed
+            {{ partial "map.html" . }} -->
         </div>
 
     </div>
