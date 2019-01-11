@@ -20,7 +20,7 @@
                 <div class="row">
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-12" id="blog-listing-medium"> <!-- Was col-md-9 -->
 
                         {{ $paginator := .Paginate (where .Data.Pages "Type" "news") }}
                         {{ range $paginator.Pages }}
@@ -28,7 +28,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="{{ .Permalink }}">
+                                      <a href="{{ .Params.original_article_url }}">
                                           {{ if .Params.banner }}
                                           <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="">
                                           {{ else }}
@@ -38,27 +38,14 @@
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                    <h2><a href="{{ .Params.original_article_url }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
-                                        <p class="author-category">
-                                          {{ if isset .Params "author" }}
-                                          {{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>
-                                          {{ else }}
-                                          {{ i18n "authorBy" }} <a href="#">{{ .Site.Params.author }}</a>
-                                          {{ end }}
-                                          {{ if isset .Params "categories" }}
-                                          {{ if gt (len .Params.categories) 0 }}
-                                          in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
-                                          {{ end }}
-                                          {{ end }}
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
-                                        </p>
+                                      <p class="date-comments">
+                                        <i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}
+                                      </p>
                                     </div>
                                     <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                    <p class="read-more"><a href="{{ .Params.original_article_url }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                     </p>
                                 </div>
                             </div>
@@ -85,16 +72,16 @@
 
                     <!-- *** RIGHT COLUMN ***
        _________________________________________________________ -->
-
-                    <div class="col-md-3">
+                    <!-- Removed from blog page layout per client request (lines 89-97) -->
+                    <!-- <div class="col-md-3"> -->
 
                         <!-- *** MENUS AND WIDGETS *** -->
 
-                        {{ partial "sidebar.html" . }}
+                        <!-- {{ partial "sidebar.html" . }} -->
 
                         <!-- *** MENUS AND FILTERS END *** -->
 
-                    </div>
+                    <!-- </div> -->
                     <!-- /.col-md-3 -->
 
                     <!-- *** RIGHT COLUMN END *** -->

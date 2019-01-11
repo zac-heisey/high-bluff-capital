@@ -173,7 +173,7 @@ section {
   color: var(--main-color-light);
 }
 
-/* Blog / Sidebar Styles */
+/* Blog / News Styles */
 
 #blog-post a:hover,
 #blog-listing-medium .post h2 a:hover,
@@ -195,6 +195,12 @@ section {
 
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: var(--main-color);
+}
+
+#blog-listing-medium .post .date-comments,
+#blog-listing-medium .post .read-more {
+  text-align: left;
+  float: left;
 }
 
 /* Form / Contact Page Styles */

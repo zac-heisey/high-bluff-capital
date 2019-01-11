@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ if isset .Params "seo_title"}}
   <title>{{ .Params.seo_title }}</title>
-  {{ else if (eq .Title "Blogs") }}
+  {{ else if (eq .Title "News") }}
   <title>Recent Private Equity News & Private Equity Blog | High Bluff Capital</title>
   {{ else }}
   <title>{{ .Title }}</title>

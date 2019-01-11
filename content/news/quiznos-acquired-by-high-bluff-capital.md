@@ -1,9 +1,8 @@
 +++
 title = "Quiznos Acquired by Investment Firm High Bluff Capital Partners"
 date = "2018-06-12"
-tags = ["quiznos", "acquisitions"]
-categories = ["in the news"]
 banner = "img/quiznos-logo.png"
+original_article_url = "https://www.restaurantbusinessonline.com/financing/quiznos-acquired-investment-firm-high-bluff-capital-partners"
 +++
 
 Quick-service sandwich chain Quiznos, which has shuttered thousands of stores in the last 10 years, has been acquired by a San Diego-based private investment firm known for working with turnaround brands, the fast casual announced today.
