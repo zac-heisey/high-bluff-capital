@@ -37,8 +37,8 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
+    name = "News"
+    url = "/news/"
     weight = 5
 
 [[menu.main]]
@@ -73,7 +73,7 @@ paginate = 10
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/news/"
     author = "High Bluff Capital Partners"
     defaultKeywords = ["investment firm san diego", "san diego investment firm", "high bluff capital"]
     defaultDescription = "High Bluff Capital is a private equity firm based in San Diego, CA that focuses on control oriented equity investments in consumer facing companies. Click here to learn more."
@@ -115,7 +115,7 @@ paginate = 10
       """
 
 [Permalinks]
-    blog = "/blog/:filename/"
+    blog = "/news/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
@@ -156,9 +156,9 @@ paginate = 10
     enable = true
     icon = "fas fa-dollar-sign"
     title = "Want the Latest Investment News & Info?"
-    subtitle = "Our blog is ground zero for company updates, industry tips & best practices, and recent happenings in the investment world."
-    link_url = "/blog/"
-    link_text = "Visit Our Blog"
+    subtitle = "This is ground zero for company updates, industry tips & best practices, and recent happenings in the investment world."
+    link_url = "/new/"
+    link_text = "Get the Latest News from High Bluff Capital"
 
 [params.clients]
     enable = true
