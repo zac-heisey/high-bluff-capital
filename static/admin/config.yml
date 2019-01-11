@@ -41,6 +41,8 @@ collections:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Bio", name: "bio", widget: "text"}
       - {label: "Photo", name: "avatar", widget: "image", hint: "Ideal Size: 300x300 pixels", required: false}
+      - {label: "LinkedIn", name: "linkedin", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
   - name: "clients"
     label: "Client Portfolio"
     folder: "data/clients"
