@@ -99,8 +99,8 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     # email = "your@email.com"
 
-    about_us = "<p>High Bluff Capital is based in San Diego, California and is the private investment firm founded by Anand Gowda. The firm’s focus is on making control-oriented equity investments in consumer-facing companies.</p>"
-    copyright = "Copyright (c) 2018, High Bluff Capital Partners; all rights reserved."
+    about_us = "<p>High Bluff Capital is a private investment firm that specializes in making control-oriented equity investments in iconic consumer-facing companies. The firm was founded by Anand Gowda and is based in San Diego, California.</p>"
+    copyright = "Copyright (c) 2019, High Bluff Capital Partners; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
