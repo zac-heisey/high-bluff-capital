@@ -6,13 +6,13 @@ description = "High Bluff Capital has very specific investment criteria for busi
 
 ### Investment Philosophy
 ---
-- Make value investments in iconic brands that need refocusing with modern consumers.
+- Make value investments in iconic brands that need refocusing with modern consumers
 - Partner with management teams to realize significant growth with resources, analytics, and
-deep expertise.
+deep expertise
 - Build scalable back office platforms across each industry vertical to achieve operational
-efficiencies without sacrificing support.
+efficiencies without sacrificing support
 - Invest in strategic initiatives, accretive acquisitions, technology, and people to support future
-growth.
+growth
 
 ### Company Profile
 ---
@@ -32,6 +32,6 @@ growth.
 
 ### Investment Horizon
 ---
-- No "target" hold period - we approach each investment independently and make decisions based on maximizing equity value.
+- No "target" hold period - we approach each investment independently and make decisions based on maximizing equity value
 
 <div style="margin-top:40px;"></div>
