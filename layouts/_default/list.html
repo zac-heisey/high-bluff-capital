@@ -28,25 +28,28 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="{{ .Params.original_article_url }}">
-                                          {{ if .Params.banner }}
-                                          <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="">
-                                          {{ else }}
-                                          <img src="{{ "img/high-bluff-logo-square.jpg" | relURL }}" class="img-responsive" alt="">
-                                          {{ end }}
-                                      </a>
+                                      {{ if .Params.banner }}
+                                      <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="">
+                                      {{ else }}
+                                      <img src="{{ "img/high-bluff-logo-square.jpg" | relURL }}" class="img-responsive" alt="">
+                                      {{ end }}
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="{{ .Params.original_article_url }}">{{ .Title }}</a></h2>
+                                    <h2>{{ .Title }}</h2>
                                     <div class="clearfix">
                                       <p class="date-comments">
                                         <i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}
                                       </p>
                                     </div>
                                     <p class="intro">{{ .Summary }}</p>
+                                    {{ if isset .Params "original_article_url" }}
                                     <p class="read-more"><a href="{{ .Params.original_article_url }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                     </p>
+                                    {{ else }}
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                    </p>
+                                    {{ end }}
                                 </div>
                             </div>
                         </section>
