@@ -4,5 +4,4 @@ date = "2019-01-15"
 banner = "img/rego-logo.jpg"
 original_article_url = "https://www.qsrmagazine.com/finance/new-quiznos-owner-wants-buy-6-10-chains"
 +++
-
-Click on the button below to read the full article.
+High Bluff Capital’s June acquisition of Quiznos wasn’t simply another blip on the frenzied M&A radar. It was, in earnest, the introductory move from Rego Restaurant Group, a new platform that wants to make a habit of resurrecting once-mighty brands.
