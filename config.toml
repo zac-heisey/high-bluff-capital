@@ -99,7 +99,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     # email = "your@email.com"
 
-    about_us = "<p>High Bluff Capital is a private investment firm that specializes in making control-oriented equity investments in iconic consumer-facing companies. The firm is based in San Diego, California.</p>"
+    about_us = "<p>High Bluff Capital Partners is a private investment firm that specializes in making control-oriented equity investments in iconic consumer-facing companies. The firm is based in San Diego, California.</p>"
     copyright = "Copyright (c) 2019, High Bluff Capital Partners; all rights reserved."
 
     # Format dates with Go's time formatting
