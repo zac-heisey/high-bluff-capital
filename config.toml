@@ -76,7 +76,7 @@ paginate = 10
     viewMorePostLink = "/news/"
     author = "High Bluff Capital Partners"
     defaultKeywords = ["investment firm san diego", "san diego investment firm", "high bluff capital"]
-    defaultDescription = "High Bluff Capital is a private equity firm based in San Diego, CA that focuses on control oriented equity investments in consumer facing companies. Click here to learn more."
+    defaultDescription = "High Bluff Capital Partners is a private equity firm based in San Diego, CA that focuses on control oriented equity investments in consumer facing companies. Click here to learn more."
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyCP1mLtPMCM_3_y6hf7uzbSmsutlpNKNFM"
