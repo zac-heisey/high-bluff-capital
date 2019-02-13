@@ -28,7 +28,7 @@ collections:
       - {label: "SEO Title", name: "seo_title", widget: "string"}
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "ID", name: "id", widget: "hidden"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "team-members"
     label: "Team Members"
     folder: "data/team_members"
