@@ -1,3 +1,2 @@
-### NETLIFY DEV DOMAIN REDIRECTS
-https://highbluffcap.netlify.com/*   https://www.highbluffcap.com/:splat    301!
-http://highbluffcap.netlify.com/*    https://www.highbluffcap.com/:splat    301!
+# Redirect default Netlify subdomain to primary domain
+https://highbluffcap.netlify.com/* https://www.highbluffcap.com/:splat 301!
