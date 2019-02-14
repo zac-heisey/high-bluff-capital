@@ -1,2 +1,3 @@
 # Redirect default Netlify subdomain to primary domain
 https://highbluffcap.netlify.com/* https://www.highbluffcap.com/:splat 301!
+http://highbluffcap.netlify.com/* https://www.highbluffcap.com/:splat 301!
