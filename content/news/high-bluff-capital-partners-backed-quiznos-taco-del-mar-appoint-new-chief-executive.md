@@ -2,6 +2,7 @@
 title = "High Bluff Capital Partners-Backed Quiznos, Taco Del Mar Appoint New Chief Executive"
 date = 2019-02-08T06:57:50.776Z
 banner = "/img/quiznos-logo.png"
+author = "The Wall Street Journal"
 +++
 By Jaewon Kang\
 Jan. 4, 2019
