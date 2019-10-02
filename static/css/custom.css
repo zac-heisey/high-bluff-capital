@@ -154,9 +154,15 @@ section {
 
 /* Created to push team members 4-6 to the next line */
 @media (min-width: 992px) {
+
   .box-simple {
-    min-height: 670px;
+    height: 670px;
   }
+
+  .col-md-4 {
+    margin-bottom: 3rem;
+  }
+
 }
 
 /* Portfolio Page Styles */

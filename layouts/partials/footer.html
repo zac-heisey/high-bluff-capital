@@ -7,7 +7,9 @@
 
             {{ .Site.Params.about_us | markdownify }}
 
-            <hr class="hidden-md hidden-lg hidden-sm">
+            {{ if isset .Site.Params "copyright" }}
+            <p class="pull-left" style="margin: 4rem 0;">{{ .Site.Params.copyright | safeHTML }}</p>
+            {{ end }}
 
         </div>
         <!-- /.col-md-4 -->
@@ -53,7 +55,7 @@
                 </ul>
               </nav>
 
-              <hr class="hidden-md hidden-lg hidden-sm">
+
 
         </div>
         <!-- /.col-md-4 -->
@@ -65,7 +67,7 @@
 
             {{ .Site.Params.address | markdownify }}
 
-            <hr class="hidden-md hidden-lg hidden-sm">
+
 
         </div>
         <!-- /.col-md-4 -->
@@ -82,7 +84,7 @@
 <!-- *** COPYRIGHT ***
 _________________________________________________________ -->
 
-<div id="copyright">
+<!-- <div id="copyright">
     <div class="container">
         <div class="col-md-12">
             {{ if isset .Site.Params "copyright" }}
@@ -90,7 +92,7 @@ _________________________________________________________ -->
             {{ end }}
         </div>
     </div>
-</div>
+</div> -->
 <!-- /#copyright -->
 
 <!-- *** COPYRIGHT END *** -->
