@@ -7,7 +7,7 @@ description = "High Bluff Capital has very specific investment criteria for busi
 
 - - -
 
-* Make value investments in consumer brands with historically strong concepts that need to be refocused and revitalized to regain relevance with modern audiences
+* Make value investments in consumer brands with historically strong concepts 
 * Partner with management teams to drive significant growth through transformational agendas, targeted capital, strategic innovation, sophisticated analytics, and deep operational expertise
 * Build scalable back office platforms across industry verticals to achieve efficiencies without sacrificing support and service quality
 * Invest in strategic initiatives, accretive acquisitions, technology, and people to support future growth
@@ -22,8 +22,8 @@ description = "High Bluff Capital has very specific investment criteria for busi
 * Opportunity for brand transformation / accelerated growth (organic and acquisitions)
 * Experienced management team with an entrepreneurial culture
 * North America based
-* Revenue: $10 million - $100+ million
-* EBITDA: $1 million - $25 million
+* Revenue: $10 million - $200+ million
+* EBITDA: $1 million - $40+ million
 
 ### Transaction Type - Flexible Investment Model
 
