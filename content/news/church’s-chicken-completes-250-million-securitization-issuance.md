@@ -1,6 +1,6 @@
 +++
 title = "Church’s Chicken Completes $250 Million Securitization Issuance"
-date = 2021-11-11T05:46:55.201Z
+date = 2021-11-06T04:46:00.000Z
 banner = "/img/church-s-logo.png"
 author = "Business Wire"
 +++
