@@ -1,7 +1,7 @@
 +++
 title = "Church’s Chicken Acquired By Investment Firm High Bluff Capital Partners"
 date = 2021-08-02T20:44:12.136Z
-banner = "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F6107f095138a04ba0d329826%2FChurch-s-Chicken-Exterior-1%2F960x0.jpg%3Ffit%3Dscale"
+banner = "/img/church-s-logo.png"
 author = "Forbes"
 +++
 By Alicia Kelso
