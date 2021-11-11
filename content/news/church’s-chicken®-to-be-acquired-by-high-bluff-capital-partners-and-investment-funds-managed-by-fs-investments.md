@@ -2,7 +2,7 @@
 title = "Church’s Chicken® To Be Acquired by High Bluff Capital Partners and Investment Funds Managed by FS Investments"
 date = 2021-08-02T20:50:01.290Z
 description = "Owners of Quiznos and Taco Del Mar Will Leverage Extensive Restaurant and Consumer Expertise to Propel Further International and Domestic Growth of One of the World’s Largest Quick Service Chicken Restaurant Chains"
-banner = "/img/hb-logo.jpg"
+banner = "/img/church-s-logo.png"
 author = "Business Wire"
 +++
 SAN DIEGO--([BUSINESS WIRE](https://www.businesswire.com/))--High Bluff Capital Partners (“High Bluff”), supported by various alternative investment funds managed by FS Investments, announced it has entered into a definitive agreement to acquire Church's Chicken®, one of the world’s largest quick service chicken restaurant chains, from FFL Partners. Subject to customary closing conditions, the transaction is expected to be completed during Q3 of 2021.
